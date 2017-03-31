@@ -3,4 +3,7 @@ This repository contains the verilog files that we have implemented for the CSCB
 ball.v (module that use to show and control the ball movement), 
 brick.v (module that use to draw and control the brick), 
 timer.v (module that use to show the time limit on the FGPA Board),
-and paddle.v (module that use to display and control the paddle). However, they have been combined into project.v which contains all the modules in a single files.
+ballpaddle.v (module that the ball will react based on paddle position),
+and paddle.v (module that use to display and control the paddle).
+
+However, they have been combined into project.v which contains all the modules in a single files. But due to unknown issue, the module cannot run and the LEDR light will turn on.
